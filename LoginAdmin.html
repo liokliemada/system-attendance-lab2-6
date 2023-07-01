@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Pengurusan Kehadiran Digital Sarawak Skills-Admin</title>
+    <meta content="SPKDSK" name="Sistem Pengurusan Kehadiran Digital Sarawak Skills (SPKDSK)">
+    <meta content="Sistem Pengurusan Kehadiran Digital" name="author" />
+    <meta http-equiv="Cache-Control" content="private, no-store" />
+    <link href='https://fonts.googleapis.com/css?family=Ultra|Orienta' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            margin-top: 20px;
+            background: #f6f9fc;
+        }
+
+        .account-block {
+            padding: 0;
+            background-image: url(img/picture.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            position: relative;
+        }
+
+        .account-block .overlay {
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .account-block .account-testimonial {
+            text-align: center;
+            color: #fff;
+            position: absolute;
+            margin: 0 auto;
+            padding: 0 1.75rem;
+            bottom: 3rem;
+            left: 0;
+            right: 0;
+        }
+
+        .text-theme {
+            color: #5369f8 !important;
+        }
+
+        .btn-theme {
+            background-color: #5369f8;
+            border-color: #5369f8;
+            color: #fff;
+        }
+
+        .btn-theme:hover {
+            background-color: #3e53a4;
+            border-color: #3e53a4;
+        }
+
+        .input-group-addon {
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            margin-right: -30px;
+            z-index: 10;
+            position: relative;
+        }
+
+        .input-group-addon i {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main-wrapper" class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-10">
+                <div class="card border-0">
+                    <div class="card-body p-0">
+                        <div class="row no-gutters">
+                            <div class="col-lg-6">
+                                <div class="p-5">
+                                    <div class="mb-5">
+                                        <h3 class="h4 font-weight-bold text-theme">Sistem Pengurusan Kehadiran Digital</h3>
+                                    </div>
+
+                                    <h6 class="h5 mb-0">Selamat Datang SPKD</h6>
+                                    <p class="text-muted mt-2 mb-5">Masukkan nombor ID kad pengajar dan kata laluan untuk mengakses sistem pentadbiran kehadiran.</p>
+
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleInputIdcard">ID Kad Pengajar</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text"><i class="fas fa-id-card"></i></span>
+                                                </div>
+                                                <input type="text" class="form-control" id="exampleInputIdcard">
+                                            </div>
+                                        </div>
+                                        <div class="form-group mb-5">
+                                            <label for="exampleInputPassword1">Kata Laluan</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                                </div>
+                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                                                <label class="form-check-label" for="form2Example31">Remember me</label>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-theme">Daftar Masuk</button>
+                                        <a href="#" class="forgot-link float-right text-primary">Terlupa kata laluan?</a>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 d-none d-lg-inline-block">
+                                <div class="account-block rounded-right">
+                                    <div class="overlay rounded-right"></div>
+                                    <div class="account-testimonial">
+                                        <h4 class="text-white mb-4">This beautiful theme is yours!</h4>
+                                        <p class="lead text-white">"Best investment I made for a long time. Can only recommend it for other users."</p>
+                                        <p>- Admin User</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end card-body -->
+                </div>
+                <!-- end card -->
+
+                <p class="text-muted text-center mt-3 mb-0">Don't have an account? <a href="register.html" class="text-primary ml-1">Register</a></p>
+
+            </div>
+            <!-- end col -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
